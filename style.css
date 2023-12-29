@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    background: url(assets/bg.png );
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 39%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    padding-top: 16rem;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: .6rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+input[type=email]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5rem 0 0 5rem;
+    border: #fff solid 1.75px;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: .6rem;
+    font-weight: 400;
+    color: #ffffff;
+    background: transparent;
+}
+
+input[type=email]:focus {
+    border: #000 solid 1.75px;
+  }
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+
+input[type=submit] {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 8px;
+    font-size: .7rem;
+    font-weight: 500;
+    border-radius: 0 5rem 5rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff6c;
+    color: #ffffff;
+}
+
